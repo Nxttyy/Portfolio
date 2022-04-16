@@ -1,14 +1,16 @@
+
 html, body {
 	height:100%;
 }
 body {
 	background:#1F3044;
+	background: linear-gradient(to right, #B20600, #FF5F00);
 }
 
 .header {
-	color:#FB9039;
+	color:#143F6B;
 	font-family:'Akshar', sans-serif;
-	font-size:50px;
+	font-size:7vh;
 }
 
 .main-content {
@@ -31,16 +33,25 @@ body {
 }
 
 .link-item img:hover {
-	height:50px;
+	height:5vh;
 }
 
 .link-item img{
-	height:40px;
+	height:4vh;
 }
 
 .footer {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+}
+
+.footer-item a {
+	font-family:'Roboto', sans-serif;
+	font-size:3vh;
+	color:#EEEEEE;
+	text-decoration: none;
+}
+
 
 
