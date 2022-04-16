@@ -1,5 +1,6 @@
-
-
+html, body {
+	height:100%;
+}
 body {
 	background:#1F3044;
 }
@@ -9,22 +10,36 @@ body {
 	font-family:'Akshar', sans-serif;
 	font-size:50px;
 }
+
+.main-content {
+	flex:1;
+}
 .container {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
+	min-height:90vh;
 	padding:10px;
 }
 .links-container {
 	display:flex;
         justify-content: center;
-	width:400px
 }
 
 .link-item {
-	padding: 5px;
+	padding:5px;
+}
+
+.link-item object:hover {
+	height:50px;
 }
 
 .link-item object{
-	height:50px;
+	height:40px;
+}
+
+.footer {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 }
