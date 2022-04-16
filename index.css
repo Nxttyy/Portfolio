@@ -30,11 +30,11 @@ body {
 	padding:5px;
 }
 
-.link-item object:hover {
+.link-item img:hover {
 	height:50px;
 }
 
-.link-item object{
+.link-item img{
 	height:40px;
 }
 
@@ -42,4 +42,5 @@ body {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-}
+
+
